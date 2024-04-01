@@ -26,10 +26,12 @@ body {
 .sidebar ul{
     list-style: none;
     margin-left: 0vw;
+   
 }
 
 .sidebar li{
     padding: 7px;
+    cursor: pointer;
 }
 
 
@@ -44,28 +46,29 @@ body {
   } 
  
 .ligne1 {
-    border-left: 1px solid rgb(60, 59, 59);
+    border-left: 1px solid #181719;
     height: 131vh;
     top: 0;
     margin-left: 18vw;
     position: fixed;
  }
+
 header{
     margin-left:10vw;
 }
 
-.row2 .col1 img{
+.row .col1 img{
     border: 2px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin-top: 16px;
     margin-left:400px;
-   position: absolute;
+    position: absolute;
 }
 
 
-.row2 .col2 .th1{
+.row .col2 .th1{
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
     color: #ffff;
@@ -146,17 +149,13 @@ header{
 .new {
     background-color: rgb(29, 28, 28);
     border: 1px solid gray;
-    padding: 0px;
     border-radius: 55%;
-    margin-bottom: 12px;
     height: 70px;
     width: 70px;
   }
 
 .new svg {
-    padding-left: 72px;
-    padding-top: 71px;
-    transform: translate(-50%, -50%);
+    transform: translate(32%, 32%);
 }
 
 #nv{
