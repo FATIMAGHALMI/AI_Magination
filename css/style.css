@@ -57,18 +57,18 @@ header{
     margin-left:10vw;
 }
 
-.row .col1 img{
+.row2 .col1 img{
     border: 2px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     margin-top: 16px;
     margin-left:400px;
     position: absolute;
 }
 
 
-.row .col2 .th1{
+.row2 .col2 .th1{
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
     color: #ffff;
